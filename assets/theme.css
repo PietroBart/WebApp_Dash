@@ -1,0 +1,51 @@
+/* Sfondo pagina */
+.app-bg { min-height: 100vh; background: #edf2ff; }
+
+/* Contenitore centrale più stretto (copre sia .container che .container-fluid) */
+.content-narrow,
+.content-narrow.container,
+.content-narrow.container-fluid {
+  max-width: 1100px;   /* cambia qui la larghezza */
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Pannelli bianchi */
+.panel {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.06);
+  padding: 24px;
+  
+}
+
+/* layout titolo */
+.app-header{
+  background: #2a3886;                 /* colore header */
+  padding: 14px 0;
+  border-bottom-left-radius: 12px;      /* opzionale */
+  border-bottom-right-radius: 12px;     /* opzionale */
+  box-shadow: 0 4px 14px rgba(0,0,0,.08);
+}
+.app-header h1,
+.app-header h2,
+.app-header .subtitle { color: #fff; }
+.app-header .subtitle { opacity: .9; }
+
+
+
+
+/* aumenta font delle tab */
+.tabs-lg .nav-tabs .nav-link {
+  font-size: 1.05rem;   /* ~16-17px */
+  padding: .5rem 1rem;  /* clic area più comoda */
+}
+
+/* opzionale: evidenzia la tab attiva */
+.tabs-lg .nav-tabs .nav-link.active {
+  font-weight: 600;
+}
+
